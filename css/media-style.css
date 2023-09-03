@@ -1,0 +1,244 @@
+@media screen and (min-width: 428px) {
+  .container {
+    max-width: 426px;
+  }
+  .hero-hello-title {
+    font-size: 36px;
+    max-width: 320px;
+  }
+  .footer-input {
+    width: 398px;
+  }
+  .modal {
+    width: 392px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .footer-logo {
+    text-align: center;
+  }
+  .footer-text-title {
+    text-align: center;
+  }
+
+  .modal-form-btn {
+    min-width: 169px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 766px;
+  }
+  .header-flex {
+    justify-content: center;
+  }
+  .menu-open-btn {
+    display: none;
+  }
+  .logo {
+    margin-right: 120px;
+    padding: 0;
+  }
+  .header-list {
+    display: flex;
+  }
+  .header-address {
+    display: block;
+  }
+  
+  .menu {
+    display: none;
+  }
+  .hero-hello {
+    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url(../images/people-office-desc-1x.jpg);
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .hero-hello {
+      background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/people-office-desc-2x.jpg);
+    }
+  }
+  .hero-hello-title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    max-width: 496px;
+    margin-bottom: 36px;
+  }
+  .strengths-list {
+    gap: 72px 24px;
+  }
+  .strengths-item {
+    width: calc((100% - 24px) / 2);
+  }
+  .strengths-item-title {
+    text-align: left;
+  }
+
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+  }
+
+  .customers-list {
+    column-gap: 24px;
+  }
+  .customers-item {
+    width: 168px;
+  }
+  .customers-icon {
+    width: 104px;
+  }
+
+  .footer {
+    padding-top: 97px;
+    padding-bottom: 96px;
+  }
+  .footer-container {
+    max-width: 580px;
+    justify-content: left;
+  }
+  .footer-input {
+    width: 264px;
+  }
+
+  .modal {
+    width: 408px;
+    padding-left: 23px;
+    padding-right: 25px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1156px;
+  }
+
+  .logo {
+    margin-right: 76px;
+    padding: 0;
+  }
+  .header-flex {
+    align-items: center;
+    justify-content: left;
+    flex-wrap: nowrap;
+  }
+
+  .header-address-list {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 40px;
+  }
+  .header-address-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+
+  .hero-hello {
+    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url(../images/people-office.jpg);
+    padding: 188px 0;
+  }
+  .hero-hello-title {
+    max-width: 496px;
+    margin-bottom: 48px;
+  }
+
+  .strengths-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+  .strengths-item {
+    width: calc((100% - 3 * 24px) / 4);
+    min-width: 264px;
+  }
+  .icon-strengths-container {
+    display: flex;
+  }
+  .strengths-item-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  .strengths-item-text {
+    font-weight: 400;
+  }
+  .products {
+    display: block;
+  }
+
+  .team-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  .customers {
+    padding: 120px 0;
+  }
+  .customers-container {
+    max-width: 1158px;
+  }
+
+  .footer {
+    padding: 100px 0;
+  }
+  .footer-container {
+    max-width: 1158px;
+    flex-wrap: nowrap;
+    justify-content: left;
+    gap: 0;
+  }
+
+  .footer-logo-text-container {
+    margin-right: 120px;
+  }
+  .footer-text {
+    max-width: 264px;
+  }
+
+  .footer-social-links {
+    margin-right: 80px;
+  }
+  .footer-form {
+    justify-content: left;
+    flex-wrap: nowrap;
+  }
+  .footer-input {
+    border-radius: 4px;
+    border: 1px solid var(--white, #fff);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    opacity: 1;
+  }
+
+  .modal {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .hero-hello {
+    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url(../images/people-office-desc-1x.jpg);
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .hero-hello {
+      background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/people-office-desc-2x.jpg);
+    }
+  }
+}
