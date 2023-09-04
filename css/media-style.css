@@ -24,10 +24,6 @@
   .modal-form-btn {
     min-width: 169px;
   }
-}
-
-
-@media (max-width: 767px) {
   .menu {
     display: none;
   }
@@ -53,13 +49,19 @@
   .header-address {
     display: block;
   }
-  
+
   .menu {
     display: none;
   }
   .hero-hello {
     background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url(../images/people-office-desc-1x.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      padding: 112px 0;
+      margin: 0 auto;
+      max-width: 767px;
   }
   @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
@@ -67,6 +69,12 @@
     .hero-hello {
       background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/people-office-desc-2x.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      padding: 112px 0;
+      margin: 0 auto;
+      max-width: 1440px;
     }
   }
   .hero-hello-title {
